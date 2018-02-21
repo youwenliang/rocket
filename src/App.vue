@@ -26,7 +26,6 @@ html, body {
   margin: auto;
   box-sizing: border-box;
   padding: 16px;
-  max-width: 640px;
   min-height: 100%;
   background: #333;
 }

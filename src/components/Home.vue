@@ -25,6 +25,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.home {
+  margin-top: 25vh;
+}
 h1{
   font-weight: 200;
   letter-spacing: -1px;
@@ -38,7 +41,7 @@ strong {
 .search {
   margin: 30px auto 40px;
   height: 48px;
-  width: calc(100% - 22px);
+  width: 306px;
   max-width: 480px;
   box-sizing: border-box;
   text-align: center;
@@ -46,28 +49,24 @@ strong {
 }
 .website {
   list-style: none;
+  margin: auto;
+  max-width: 306px;
   padding-left: 0px;
   color: white;
   font-size: 10px;
-  --thumbnail-size: 90px;
+  --thumbnail-size: 70px;
   --padding: 16px;
 }
 .website li {
   display: inline-block;
   width: var(--thumbnail-size);
   height: var(--thumbnail-size);
-  margin: calc((100vw - var(--thumbnail-size)*4 - var(--padding)*2)/8);
-  margin-bottom: 10px;
-}
-@media only screen and (min-width: 640px) {
-  .website li {
-    margin: calc((640px - var(--thumbnail-size)*4 - var(--padding)*2)/8);
-    margin-bottom: 10px;
-  }
+  margin: calc((306px - var(--thumbnail-size)*4 - var(--padding)*2)/8);
+  margin-bottom: 22px;
 }
 .website .website-thumbnail {
-  width: calc(var(--thumbnail-size) * .5);
-  height: calc(var(--thumbnail-size) * .5);
+  width: 48px;
+  height: 48px;
   background: #000;
   margin: auto;
   display: flex;
