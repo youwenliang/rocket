@@ -29,4 +29,9 @@ html, body {
   min-height: 100%;
   background: #333;
 }
+
+.white {
+  color: white;
+}
+
 </style>

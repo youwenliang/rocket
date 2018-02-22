@@ -2,35 +2,43 @@ export default {
   websites: [
     {
       'id': 0,
-      'name': 'Facebook'
+      'name': 'Facebook',
+      'url': '/Facebook'
     },
     {
       'id': 1,
-      'name': 'Youtube'
+      'name': 'Youtube',
+      'url': '/Youtube'
     },
     {
       'id': 2,
-      'name': 'Google'
+      'name': 'Google',
+      'url': '/Google'
     },
     {
       'id': 3,
-      'name': 'Kompas'
+      'name': 'Kompas',
+      'url': '/Kompas'
     },
     {
       'id': 4,
-      'name': 'Yahoo'
+      'name': 'Yahoo',
+      'url': '/Yahoo'
     },
     {
       'id': 5,
-      'name': 'Detik'
+      'name': 'Detik',
+      'url': '/Detik'
     },
     {
       'id': 6,
-      'name': 'Liputan6'
+      'name': 'Liputan6',
+      'url': '/Liputan6'
     },
     {
       'id': 7,
-      'name': 'Tribunnews'
+      'name': 'Tribunnews',
+      'url': '/Tribunnews'
     }
   ]
 }
