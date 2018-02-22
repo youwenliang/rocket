@@ -1,7 +1,7 @@
 {
   "name": "rocket",
   "short_name": "rocket",
-  "start_url": "./index.html",
+  "start_url": "./rocket/index.html",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#8FDFC0",
